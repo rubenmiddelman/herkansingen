@@ -5,10 +5,11 @@
 
 using namespace std;
 
-int main(int argc,char **argv)
+int main()
 {
 
-    Synth addSynth(samplerate);
+    Synth synth1;
+    synth1.MainSynthFunc(440);
 
   return 0;
 } // main()

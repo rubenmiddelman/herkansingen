@@ -5,7 +5,7 @@
 #include "sine.h"
 #include "Osc.h"
 
-Synth::Synth(float samplerate)
+Synth::Synth()
 {
   std::cout << "Synth - constructor\n";
 }
@@ -16,16 +16,17 @@ Synth::~Synth()
   std::cout << "Synth - destructor\n";
 }
 
-int Synth::MainSynthFunc()
+int Synth::MainSynthFunc(int freq)
 {
   JackModule jack;
-  jack.init(argv[0]);
+  jack.init();
   double samplerate = jack.getSamplerate();
 
   Sine sine1(440, samplerate);
-  Sine sine2(440, samplerate);
+  Sine sine2(880, samplerate);
 
-  jack_default_audio_sample_t *outBuf, jack_nframes_t nframes) {
+  jack.onProcess = [&](jack_default_audio_sample_t *inBuf,
+     jack_default_audio_sample_t *outBuf, jack_nframes_t nframes) {
  for(unsigned int i = 0; i < nframes; i++) {
    outBuf[i] =sine1.getSample()*sine2.getSample();
    sine1.tick();
@@ -35,5 +36,6 @@ int Synth::MainSynthFunc()
  };
  jack.autoConnect();
  return 0;
+ sine1.setFrequency(freq);
 
 }
