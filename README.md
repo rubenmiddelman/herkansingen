@@ -19,7 +19,7 @@ Nou laten we dan beginnen.
 
 De pro tools standaard compressor 
 
-![alt text](https://github.com/[rubenmiddelman]/[herkansingen]/blob/[master]/pasted image 0.png?raw=true)
+![alt text](https://github.com/[rubenmiddelman]/[herkansingen]/blob/[master]/protools.png?raw=true)
 Deze plugin zal voor de meeste beginners een van de eerste plugins zijn die ze moeten leren gebruiken. Daarom vind ik het heel erg belangrijk om bij deze plugin nog even extra te kijken naar of deze GUI geschikt is voor beginners.
 Wat werkt er goed?
 Ik vind dat deze compressor goed werkt als basis compressor. Hij geeft niet te veel opties dat je overspoelt raakt door mogelijkheden maar hij geeft wel genoeg om een mooi geluid te maken. Voor de rest ben ik tevreden over de manier hoe de compressie visueel wordt laten zien. Ik denk alleen dat ik dit visueel wel snap maar mensen die net begonnen zijn met het gebruiken van een compressor zullen dit misschien niet snappen (maar dan moet er wel in het achterhoofd gehouden worden dat compressie zowiezo moeilijk is om te laten zien)
