@@ -1,4 +1,4 @@
-CSD Onderzoek naar een goede GUI
+# CSD Onderzoek naar een goede GUI
 
 Voor mijn CSD opdracht 3 heb ik besloten om een onderzoek te doen naar een soort plugin die alle mix engineers gebruiken. Ik wil graag kijken naar compressoren en hoe het zit met verschillende soorten. Ik heb een paar dingen opgesteld die ik graag wil onderzoek.
 Ik vind beginner vriendelijkheid erg belangrijk. Kan iemand die niet zo veel mixt of net begint met mixen werken met deze plugin. Ook vind ik het belangrijk om te onderzoeken hoe de GUI beïnvloed wat de gebruiker doet. Dus als ik nummertjes neerzet verwachten de meeste mensen dat ze iets in volgorden doen. Maar doen mensen dingen ook in volgorden als er geen nummertjes bij staan.
@@ -16,7 +16,7 @@ Nou laten we dan beginnen.
 
 
 
-De pro tools standaard compressor 
+## De pro tools standaard compressor 
 
 ![Screenshot](pictures/protools.png)
 
@@ -38,16 +38,8 @@ Ik vind dat dit een plugin is die je een beetje in het diepe gooit. De enige man
 Maakt het aantal parameters nog uit?
 Ik vind dat de belangrijke parameters genoeg highlights krijgen maar advanced opties dat zeker niet krijgen terwijl daar wel ruimte voor is. Voor mijn gevoel is dit zeker voor een beginner het perfecte aantal parameters en genoeg voor een professional.  
 
-
-
-
-
-
-
-
-
-
-Izotope ozone 8
+## Izotope ozone 8
+![Screenshot](pictures/download.jpg)
 
 Izotope ozone 8 is origineel een mastering plugin die ook nog een EQ en een stereo imager. Maar voor dit onderzoek ga ik focussen op de compressor omdat ik dit op zich een fijne compressor vindt om op een master te doen. Ik vind niet dat dit een EQ is die veel beginners zullen gebruiken dus zal ik niet specifiek kijken naar of dit een goede plugin is om te gebruiken voor beginners.
 Wat werkt er goed?
@@ -67,20 +59,9 @@ Maakt het aantal parameters nog uit?
 Ik vind dat deze plugin met weinig parameters een hele hoop doet en deze plugin zal top zijn voor beginnen en hogere level masteraars. Er zullen wat standaard dingen als side chain missen maar dat is logisch want waarom zou je side-chain in je master gebruiken. Dus in deze plugin zeg ik: nee het aantal parameters maakt niet zo heel erg uit.
 
 
+## Fabfilter pro C-2
 
-
-
-
-
-
-
-
-
-
-
-
-
-Fabfilter pro C-2
+![Screenshot](pictures/11417181_800.jpg)
 
 Dit is denk ik echt geen plugin voor beginners (zeker door de prijs) maar dat zal ik niet tegen de plugin houden. Ook is het belangrijk om te zeggen dat deze plugin echt heel erg mooi klinkt maar daar kijken we natuurlijk op dit moment niet echt naar.
 Wat werkt er goed?
@@ -99,7 +80,7 @@ Maken de parameters nog uit?
 Deze plugin (in tegenstelling tot de andere 2) heeft echt gigantisch veel parameters. Maar fabfilter gaat daar heel erg slim mee om. Zij maken de belangrijkste parameters wat groter dan de rest en zet deze ook recht in het midden van de plugin. Dan de rest van de parameters worden een stuk kleiner gemaakt en worden ergens aan de rand of aan de onderkant gezet. Ik vind dit allemaal erg slim gedesigne. Hier maken de parameters dus erg uit. Daar aan kan ik opmaken dat deze plugin erg goed zou werken voor de professionals.
 
 
-Het verschil tussen deze plugins
+## Het verschil tussen deze plugins
 Oké nu wil ik even kijken naar de globale verschillen tussen deze plugins. Laten we beginnen met een vraag over de workflow en bij welke GUI ik de workflow het fijnst vindt.
 Workflow
 Ik vindt de workflow van alle 3 deze plugins erg interessant. Bij de pro tools standaard plugin begin je gelijk met draaien aan de knobs. Ik heb ook wel het idee dat dat bij de fabfilter ook gebeurt doordat die knobs het grootste zijn van de hele plugin. Bij de izotope daarentegen zijn er geen knobs en toen ik die plugin voor het eerst probeerde begon ik ook gelijk met de audio meter te klooien terwijl ik dat bij geen andere plugin heb gedaan. Ook is het belangrijk om te kijken naar welke parameter je eerst aandraait. Dat is dan wel bij al de plugins hetzelfde en ik vind het een beetje jammer om te zien dat geen van deze ontwerpers echt iets anders daarin heeft gedaan.
@@ -108,10 +89,12 @@ Ik vind het nog wel belangrijk om te praten over de prijsverschillen. Ik vind he
 algemeen
 In het algemeen heb ik een heleboel belangrijke dingen uit dit onderzoek gehaald. Bijvoorbeeld hoe belangrijk het is om een goede manier hebt om te laten zien hoe compressie werkt of hoe belangrijk het is om te zorgen dat je belangrijkste parameters er goed uit te laten zien is.
 
-Nu totaal iets anders
+## Nu totaal iets anders
 Ik heb nu erg in depth naar compressoren gekeken en daar voor mijzelf erg veel info uit gehaald. Nu wil ik die info die ik daar vandaan heb gehaald op totaal iets anders toepassen. Ik heb voor mijn vorige opdracht van dit blok kijken namelijk mijn pitch detectie opdracht. Ik wil kijken of ik de info die ik van verschillende compressoren heb geleerd kan toepassen op een totaal ander iets. Ik denk nu dat ik zeker een goed idee heb gekregen voor wat ik zou kunnen aanpassen aan mijn web app. Maar laten we nu eerst beginnen om naar mijn webapp te kijken op dezelfde manier als we naar de compressoren hebben gekeken
 
-Pitch detectie webapp
+## Pitch detectie webapp
+
+![Screenshot](pictures/Screenshot (16).png)
 
 Deze webapp is gemaakt om zangers en zangeressen te helpen leren toonhoogte te vinden. Je kan in de grid een kruisje zetten en dan speelt hij op een bepaalde toonhoogte een toon af. De grid stelt dus in principe gewoon een step sequencer voor. Dan als de sequence is afgespeeld dan wordt er een noot naam neergezet en een balk die laat zien of waar je toonhoogte is ten opzichte van de noot.
 
@@ -130,22 +113,32 @@ Oké er zijn een heleboel dingen die ik graag zou veranderen maar die tijd heb i
 Zijn er leuke manieren van interactie in je app?
 Ik vind het idee van de grid erg leuk om zang mee te trainen. Ik heb dat nog niet heel veel vaker gezien (voor zang in ieder geval niet) en ben daar ook best wel blij mee. Maar als ik dan naar de grid kijk zie ik gelijk dat het er niet interessant uitziet. Als je kijkt naar andere muzikale sequencers online dan zie je vooral mooie afbeeldingen en nette afwerkingen. Als ik daarentegen naar mijn eigen grid kijk dan zie ik gelijk dat het niet interessant is omdat het er niet echt goed uit ziet.
 
-Een prototype
+## Een prototype
+
+![Screenshot](pictures/Mockup.png)
 
 Dit prototype is gemaakt met de gedachte dat de app op een geven moment op een telefoon gespeeld kan worden (het probleem daarmee op dit moment is dat apple websites meestal geen toegang geeft tot de microfoons van telefoons). Uit mijn compressor onderzoek heb ik gehaald dat de belangrijkste features het belangrijkst afgebeeld moet zijn. Daarom heb ik de sequencer recht in het midden gezet. Hiermee is dat het eerste wat je ziet en is dat ook het eerste waar je naar kijkt. Daar onder zie je een soort tuner. Die is ook groot en door het kleurverschil valt dat ook gelijk op. Dan is er ook nog de verandering van het pijltje bij de sequencer zodat je weet waar je in de sequence zit. Ook maakt de sequencer de noten die je goed hebt gezongen groen en de noten die je nog niet goed hebt gezongen rood is dit is gedaan zodat je precies weet wat er nog moet gebeuren.
 Dan vind ik het ook belangrijk dat er over een volgorde wordt nagedacht. Eerst zul je kijken naar de title. Van daar gaan je ogen naar de sequencer en van daar kijk je naar de tuner. Dit is precies de volgorde van hoe je dingen wilt hebben. Het verloopt zo precies goed dat je door de app wordt begeleidt. Dit heb ik uit de compressoren gehaald en is iets wat ik erg belangrijk vond. Ook het vele tekst weg. Uit de compressoren gehaald dat hoe minder tekst hoe fijner het is. Maar toch moet je genoeg info er uit kunnen halen. Ik heb daarom gekozen om alleen de nootnaam in het hokje te zetten en een minimale descriptie te geven bij de 2 knoppen. 
 Ik denk dat deze mockup een erg goed idee geeft van wat ik zou willen doen met mijn webapp behalve dan de esthetiek waar we bij de plugins hebben geleerd dat je plugin er wel professioneel uit moet zien wat dat vinden de meeste mensen fijn en dat haalt mensen ook weer terug naar je app.
 
-Een prototype programmeren.
+### Een prototype programmeren.
 Ik heb er voor gekozen om een prototype van de tuner en van de sequencer te programmeren. Dit zijn namelijk de meest belangrijke componenten van mijn app. Ik heb er voor gekozen om dit in javascript te doen omdat het natuurlijk een webapp is en dan is javascript wel de beste optie voor het programmeren. 
-De sequencer
+
+
+![Screenshot](pictures/Screenshot (18).png)
+
+#### De sequencer
  
 Dit is mijn geprogrammeerde versie van de sequencer. Er zit nog geen echt werkende functionaliteit achter (het is nog maar een Poc/mockup) maar ik moet nu al zeggen dat ik erg blij ben met deze nieuwe look. Het ziet er erg netjes uit en dit is iets wat je wel in een echte tool zou kunnen zien. Als ik hier nog mee verder wil zou ik het moeten maken zoals in mijn oude versie. Daar kon je dynamisch kiezen hoeveel noten je wou in de sequencer. Dat kan hier nog niet. Ook had ik het vorige keer in HTML gedaan. Ik heb geleerd dat HTML niet zo heel erg fijn is te verbinden met P5 maar dat het wel kan. Maar daarom heb ik deze keer er voor gekozen om alles in P5 te doen zodat die combi nu een stuk simpeler gaat.
-De tuner
+
+
+![Screenshot](pictures/Screenshot (20).png)
+
+### De tuner
 
 	Zoals je kunt zien is de tuner nu ook een stuk netter. Het idee is dat de wijzer nu een beetje als een klok rond gaat. In plaats van dat hij over een balk heen schuift. Ik denk dat dit er voor zorgt dat het wat helderder is dan een streep over een balk heen leggen. Ook zie je dat het gecentreerd is zoals we bij de fabfilter compressor zagen is het erg belangrijk dat dingen in het midden van de app staan zodat ze gelijk goed gezien worden.
 
-Als laatste
+## Als laatste
 Ik heb veel geleerd van dit onderzoek. Ik zal even wat dingen opnoemen
 Als een app/plugin er aantrekkelijker uitziet dan wil je hem sneller gebruiken. Dit komt natuurlijk doordat wij als mens worden aangetrokken tot dingen die mooi zijn.
 Plaatsing van knoppen/parameters is super interessant en belangrijk. Als je dingen in het midden plaats worden ze veel sneller gebruikt dan als je iets aan de zijkanten plaats. Ook maakt grote van de knoppen en kleur erg uit. Als de knoppen niet opvallen in het thema ben je ook sneller geneigd om hem niet te gebruiken(kijk maar naar de pro-tools compressor en daar vallen de advanced opties niet op dus worden die veel minder gebruikt)
